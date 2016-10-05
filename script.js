@@ -12,4 +12,5 @@ input.keydown(function(e) {
 
 onNewListItem("davidsList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
+  console.log(value)
 }) 
