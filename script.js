@@ -1,4 +1,4 @@
-var input = $("new-item-input")
+var input = $("#new-item-input")
 
 
 
