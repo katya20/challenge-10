@@ -15,3 +15,6 @@ onNewListItem("katyasList", function(value) {
   console.log("hi");
   console.log(value);
 }) 
+
+var clear = $("#clear-button")
+deleteValue(clear) 
