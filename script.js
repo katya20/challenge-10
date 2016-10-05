@@ -17,5 +17,6 @@ onNewListItem("katyasList", function(value) {
 
 $("#clear-button").click(function() {
   deleteValue("katyasList")
+  $("#list-display").remove();
 });
 
