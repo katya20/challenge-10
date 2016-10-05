@@ -3,9 +3,9 @@ var input = $("new-item-input")
 
 
 input.keydown(function(e) {	
+  
   if (e.keyCode == "13") {
-    console.log("hi");
-    var valueToSave = input.val();
+      var valueToSave = input.val();
     addListItem(valueToSave);
   }
 })
