@@ -1,12 +1,12 @@
 var input = $("new-item-input")
 
-console.log("hello");
+
 
 input.keydown(function(e) {	
-  
+  console.log("hello");
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    addListItem(katyasList, valueToSave);
+    addListItem("katyasList", valueToSave);
   }
 })
 
