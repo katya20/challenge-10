@@ -10,7 +10,8 @@ input.keydown(function(e) {
   }
 })
 
-onNewListItem("davidsList", function(value) {
+onNewListItem("katyasList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
-  console.log(value)
+  console.log("hi");
+  console.log(value);
 }) 
